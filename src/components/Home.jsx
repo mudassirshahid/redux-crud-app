@@ -5,8 +5,7 @@ import { deleteUser } from "../reducer/UserReducer";
 
 const Home = () => {
   const users = useSelector((state) => state.users);
-  const dispatch = useDispatch();
-  // localStorage.clear()  
+  const dispatch = useDispatch();  
   const handleDelete = (id) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
       dispatch(deleteUser(id));
