@@ -6,12 +6,12 @@ export const userList = [
     },
     {
         id: 2,
-        name: "Mudassir",
-        email: "mudassirshahid85@gmail.com"
+        name: "Ahmed",
+        email: "ahmed123@gmail.com"
     },
     {
         id: 3,
-        name: "Mudassir",
-        email: "mudassirshahid86@gmail.com"
+        name: "Hassan",
+        email: "hassan567@gmail.com"
     },
 ]
