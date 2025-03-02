@@ -12,7 +12,7 @@ const Home = () => {
     }
   };
   return (
-    <div className="bg-gray-100 p-6 min-h-screen flex justify-center items-center">
+    <div className="p-6 min-h-screen flex justify-center items-center">
       <div className="flex flex-col overflow-auto shadow-xl">
       <div className="flex sm:flex-row flex-col sm:gap-0 gap-5 justify-between my-3 items-center bg-black rounded-lg p-3">
           <h2 className="sm:text-3xl text-lg font-bold bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-lg px-4 py-2">CRUD APP</h2>
