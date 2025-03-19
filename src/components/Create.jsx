@@ -23,11 +23,16 @@ const Create = () => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        const {name, email} = formData
-        dispatch(addUser({id: users[users.length - 1].id + 1, name, email}))
-        navigate('/')
-    }
+      e.preventDefault();
+      const { name, email } = formData;
+  
+      // Check if there are existing users
+      const newId = users.length > 0 ? users[users.length - 1].id + 1 : 1;
+  
+      dispatch(addUser({ id: newId, name, email }));
+      navigate('/');
+  };
+  
   return (
     <>
       <div className="flex justify-center items-center min-h-screen sm:px-0 px-5">
